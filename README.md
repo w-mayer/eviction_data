@@ -3,8 +3,8 @@
 This project performs fuzzy matching of plaintiff names from eviction records to LLC names, with the goal of identifying the best match for each plaintiff name to an entity name in the LLC dataset. It leverages parallel processing and memory-efficient techniques to handle large datasets and ensures that the matching process can scale with a large volume of data.
 
 ## Project Structure
-- **`[`va_evictions.ipynb`](va_evictions.ipynb)**: The main Python script for processing the datasets, performing fuzzy matching, and merging the results.
-- **[`OUTPUT/`](OUTPUT/)**: Directory where the results of the matching process will be saved.
+- **[`va_evictions.ipynb`](va_evictions.ipynb)**: The main script for processing the datasets, performing fuzzy matching, and merging the results.
+
   
 ## Requirements
 
