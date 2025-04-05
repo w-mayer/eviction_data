@@ -4,7 +4,7 @@ This project performs fuzzy matching of plaintiff names from eviction records to
 
 ## Project Structure
 - **`matching.py`**: The main Python script for processing the datasets, performing fuzzy matching, and merging the results.
-- **(`OUTPUT/`)[OUTPUT/]**: Directory where the results of the matching process will be saved.
+- **[`OUTPUT/`](`OUTPUT/`)**: Directory where the results of the matching process will be saved.
   
 ## Requirements
 
