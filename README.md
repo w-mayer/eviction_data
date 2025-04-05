@@ -17,7 +17,7 @@ This project performs fuzzy matching of plaintiff names from eviction records to
 You can install the required dependencies using `pip`:
 
 ```bash
-pip install pandas fuzzywuzzy numpy faiss-cpu
+pip install pandas fuzzywuzzy numpy
 ```
 ## License
 This project is licensed under the MIT License.
