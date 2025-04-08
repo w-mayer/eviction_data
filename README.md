@@ -4,6 +4,9 @@ This project performs fuzzy matching of plaintiff names from eviction records to
 
 ## Project Structure
 - **[`va_evictions.ipynb`](va_evictions.ipynb)**: The main script for processing the datasets, performing fuzzy matching, and merging the results.
+- **[`confidence_testing.ipynb`](confidence_testing.ipynb)**: Script for resampling different confidence thresholds for finetuning
+- **[`OUTPUT/evictions_matched.parquet`](OUTPUT/evictions_matched.parquet)**: Matched evictions output for future work
+
 
   
 ## Requirements
