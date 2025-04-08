@@ -13,14 +13,14 @@ This project performs fuzzy matching of plaintiff names from eviction records to
 
 - Python 3.x
 - `pandas`
-- `fuzzywuzzy` for fuzzy matching
+- `rapidfuzz` for fuzzy matching
 - `concurrent.futures` for parallel processing
 - `numpy`
 
 You can install the required dependencies using `pip`:
 
 ```bash
-pip install pandas fuzzywuzzy numpy
+pip install pandas rapidfuzz numpy
 ```
 ## License
 This project is licensed under the MIT License.
