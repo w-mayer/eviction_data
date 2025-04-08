@@ -1,6 +1,5 @@
 # Local testing data
 DATA/
-OUTPUT/
 .venv/
 requirements.txt
 
