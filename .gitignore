@@ -1,7 +1,7 @@
 # Local testing data
 DATA/
 .venv/
-requirements.txt
+scratch.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
