@@ -1,26 +1,28 @@
 ## LLC Matching and Eviction Analysis Project
 
-This project performs fuzzy matching of plaintiff names from eviction records to LLC names, with the goal of identifying the best match for each plaintiff name to an entity name in the LLC dataset. It leverages parallel processing and memory-efficient techniques to handle large datasets and ensures that the matching process can scale with a large volume of data.
+This project focuses on matching Virginia eviction records to registered LLC entities using fuzzy string matching and parallel processing techniques. It also includes exploratory data analysis (EDA) to uncover patterns in eviction filings.
 
 ## Project Structure
-- **[`va_evictions.ipynb`](va_evictions.ipynb)**: The main script for processing the datasets, performing fuzzy matching, and merging the results.
-- **[`confidence_testing.ipynb`](confidence_testing.ipynb)**: Script for resampling different confidence thresholds for finetuning
+- **[`SCRIPTS/va_evictions.ipynb`](SCRIPTS/va_evictions.ipynb)**: The primary notebook that processes eviction records and performs fuzzy matching using rapidfuzz.
+- **[`SCRIPTS/confidence_testing.ipynb`](SCRIPTS/confidence_testing.ipynb)**: Script for resampling different confidence thresholds for finetuning.
+- **[`SCRIPTS/evictions_eda.ipynb`](SCRIPTS/evictions_eda.ipynb)**: An exploratory notebook that applies simple heuristics to group and analyze eviction data, highlighting preliminary trends.
 - **[`OUTPUT/evictions_matched.parquet`](OUTPUT/evictions_matched.parquet)**: Matched evictions output for future work
 
-
-  
-## Requirements
-
+## Installation
 - Python 3.x
 - `pandas`
 - `rapidfuzz` for fuzzy matching
 - `concurrent.futures` for parallel processing
-- `numpy`
 
 You can install the required dependencies using `pip`:
 
 ```bash
-pip install pandas rapidfuzz numpy
+pip install -r requirements.txt
 ```
+
+## Notes
+- The matching process uses rapidfuzz for efficient fuzzy matching
+- The EDA notebook applies basic grouping heuristics; future analyses planned
+
 ## License
 This project is licensed under the MIT License.
