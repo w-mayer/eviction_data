@@ -4,6 +4,7 @@ DATA/
 scratch.py
 full_matches.csv
 /OUTPUT/evictions_matched.parquet
+.DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
