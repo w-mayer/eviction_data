@@ -1,12 +1,19 @@
 ## LLC Matching and Eviction Analysis Project
+# Last Update: 5/13/25
 
 This project focuses on matching Virginia eviction records to registered LLC entities using fuzzy string matching and parallel processing techniques. It also includes exploratory data analysis (EDA) to uncover patterns in eviction filings.
 
 ## Project Structure
+eviction_matching.ipynb runs the matching
+
+confidence_testing.ipynb shows basic stats on the matching process
+
+evictions_eda.ipynb shows some approaches for grouping entities for further work
+
+
 - **[`SCRIPTS/eviction_matching.ipynb`](SCRIPTS/eviction_matching.ipynb)**: The primary notebook that processes eviction records and performs fuzzy matching using rapidfuzz.
 - **[`SCRIPTS/confidence_testing.ipynb`](SCRIPTS/confidence_testing.ipynb)**: Script for resampling different confidence thresholds for finetuning.
 - **[`SCRIPTS/evictions_eda.ipynb`](SCRIPTS/evictions_eda.ipynb)**: An exploratory notebook that applies simple heuristics to group and analyze eviction data, highlighting preliminary trends.
-- **[`OUTPUT/evictions_matched.parquet`](OUTPUT/evictions_matched.parquet)**: Matched evictions output for future work
 
 ## Installation
 - Python 3.x
